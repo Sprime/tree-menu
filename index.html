@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree menu</title>
+
+    <link rel="preconnect" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link href="//fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="menu">
+            <div class="menu__block">
+                <span class="menu__block-head active">
+                    <span>Folder 1</span>
+                </span>
+
+                <div class="menu__block-list show">
+                    <ul class="menu__block-items">
+                        <li><a href="#" class="menu__link">Item 1.1</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu__block">
+                <span class="menu__block-head active">
+                    <span>Folder 2</span>
+                </span>
+
+                <div class="menu__block-list show">
+                    <div class="menu__subblock">
+                        <span class="menu__block-head active">
+                            <span>Subfolder 2.1</span>
+                        </span>
+
+                        <div class="menu__block-list show">
+                            <ul class="menu__block-items">
+                                <li><a href="#" class="menu__link">Item 2.1.1</a></li>
+                                <li><a href="#" class="menu__link">Item 2.1.2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <ul class="menu__block-items">
+                        <li><a href="#" class="menu__link">File 2.2</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu__block">
+                <span class="menu__block-head">
+                    <span>Folder 3</span>
+                </span>
+
+                <div class="menu__block-list">
+                    <div class="menu__subblock">
+                        <span class="menu__block-head">
+                            <span>Subfolder 3.1</span>
+                        </span>
+
+                        <div class="menu__block-list">
+                            <ul class="menu__block-items">
+                                <li><a href="#" class="menu__link">Item 3.1.1</a></li>
+                                <li><a href="#" class="menu__link">Item 3.1.2</a></li>
+                            </ul>
+
+                            <div class="menu__subblock">
+                                <span class="menu__block-head">
+                                    <span>Subfolder 3.1.1</span>
+                                </span>
+
+                                <div class="menu__block-list">
+                                    <ul class="menu__block-items">
+                                        <li><a href="#" class="menu__link">Item 3.1.1.1</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="menu__subblock">
+                                <span class="menu__block-head">
+                                    <span>Subfolder 3.1.2</span>
+                                </span>
+
+                                <div class="menu__block-list">
+                                    <ul class="menu__block-items">
+                                        <li><a href="#" class="menu__link">Item 3.1.2.1</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <ul class="menu__block-items">
+                                <li><a href="#" class="menu__link">Item 3.1.1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="menu__subblock">
+                        <span class="menu__block-head">
+                            <span>Subfolder 3.2</span>
+                        </span>
+
+                        <div class="menu__block-list">
+                            <ul class="menu__block-items">
+                                <li><a href="#" class="menu__link">Item 3.2.1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <ul class="menu__block-items">
+                        <li><a href="#" class="menu__link">File 3.1</a></li>
+                        <li><a href="#" class="menu__link">File 3.2</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu__block">
+                <ul class="menu__block-items">
+                    <li><a href="#" class="menu__link">File 4</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
